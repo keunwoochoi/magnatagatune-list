@@ -100,9 +100,6 @@ According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciod
    * title: audio data classification by means of new algorithms
    * Not on tag prediction
  
-[//]: # * R Piva: [pdf](http://tesi.cab.unipd.it/42723/)
-   
-
 
 ### 2012
 According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciodt=0%2C5&cites=10394255617419929029&scipsc=&as_ylo=2012&as_yhi=2012),
