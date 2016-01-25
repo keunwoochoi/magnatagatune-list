@@ -16,13 +16,30 @@ According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciod
  * U Sandouk et al., arxiv: text-processing.
  * U Sandouk et al., arxiv: text-processing.
  * E Colautti et al. : ...written in French but doesn't seem related to audio
+(and,)
+ * J Nam et al., arxiv: [pdf](http://arxiv.org/abs/1508.04999)
+   * title: A deep bag-of-features model for music auto-tagging
+   * TODO
+
 
 ### 2014
 According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciodt=0%2C5&cites=10394255617419929029&scipsc=&as_ylo=2014&as_yhi=2014),
  * D Lim at al., JMLR: about metrics
  * S Duan et al.: survey of tagging techniques
  * G Sageder et al.: not used. onlysubset of MagnaTagATune is used to verity the proposed feature selection that is based on ismir2014 DB.
+(and,)
+ * S Dieleman et al.:
+   * title: End-to-end learning for music audio
+   * TODO
+ * A Oord et al.: [pdf](http://www.terasoft.com.tw/conf/ismir2014/proceedings/T007_118_Paper.pdf)
+   * title: Transfer learning by supervised pre-training for audio-based music classification
+   * TODO
+ * SN Tran et al.: [pdf](http://mirg.city.ac.uk/blog/wp-content/uploads/2013/09/rbm-features-for-music-similarity.pdf)
+   * title: feature preprocessing with RBMs for music similarity learning
+ * F Gouton et al.: [pdf](http://arxiv.org/abs/1410.0001)
+   * title: on evaluation validity in music autotagging
 
+ 
 ### 2013
 According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciodt=0%2C5&cites=10394255617419929029&scipsc=&as_ylo=2013&as_yhi=2013),
  * D Wolff et al. : similarity
@@ -39,6 +56,16 @@ According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciod
 | Affinity Weighted Embedding      | 52.7% | 39.2% |
 
  * JA Burgoyne et al., ismir: just mentioning.
+(and,)
+ * S Dieleman et al., ismir:
+   * title: Multiscale Approaches To Music Audio Feature Learning
+   (TODO)
+ * J Stastny et al.: [pdf](http://www.researchgate.net/profile/Jii_Fejfar/publication/257563651_Audio_data_classification_by_means_of_new_algorithms/links/5432b2d00cf225bddcc7c68a.pdf)
+   * title: audio data classification by means of new algorithms
+   * TODO
+ * R Piva: [pdf](http://tesi.cab.unipd.it/42723/)
+   * TODO
+
 
 ### 2012
 According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciodt=0%2C5&cites=10394255617419929029&scipsc=&as_ylo=2012&as_yhi=2012),
@@ -47,7 +74,15 @@ According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciod
  * M Levy: can't get the pdf of it, seems like internal document in the school.
  * L Barrington, PhD thesis: probably not focusing on automatic tagging
  * P Hamel, PhD thesis: written in french. according to its list of contents it would be same results as in the author's ismir paper.
+(and,)
  
+ * J NAM et al.,: mirex 2012 submission
+   * title: mirex 2012 submission: audio classification using sparse feature learning
+   * algorithm: RBM + SVM
+   * result
+    * AROC (ranking): 0.7244,
+    * F-measure (annotation): 0.1123
+
 ### 2011
 According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciodt=0%2C5&cites=10394255617419929029&scipsc=&as_ylo=2011&as_yhi=2011),
  * AJ Quinn et al., SIGCHI: a general survey on human computation
@@ -92,17 +127,60 @@ http://arxiv.org/pdf/1105.5196.pdf
  * M Mann et al., ismir: mood predction in reduced dimensions.
  * D Wolff et al., : about similarity
  * T Aizenberg et al.: about melodic salience modelling
-
+(and,)
+ * S Dieleman et al., ismir 2011:
+   * title: audio-based music classification with a pretrained convolutional network
+   * 
 ### 2010
 According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciodt=0%2C5&cites=10394255617419929029&scipsc=&as_ylo=2010&as_yhi=2010),
 
- * E Law et al., MLKD: 
- * M Mandel et al.: 
- * A Quinn et al.: 
- * E Law et al., ECML: 
- * Y Panagakis et al.:
- * F Maillet: 
+ * E Law et al., MLKD: learning to tag from open voca labels
+ * M Mandel et al.: learning tags that vary withnin a song
+ * A Quinn et al.: not related.
+ * E Law et al., ECML: learning to tag using noisy labels
+ * Y Panagakis et al.: sparse multi-label linear embedding NNTF for automatic music tagging
+ * F Maillet: about music recommendation
+(and,)
+ * K Seyerlehner et al.: [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.227.6265&rep=rep1&type=pdf)
+  * metric: f-score and G-mean (geometric mean of true negative rate and recall)
+  * result:
+
+| feature set | f-score | g-mean | f-score (S2) | g-mean(S20 |
+| ------------- |:-------------:|:-----:|:-----:|:-----:|
+| SAF | 0.3775 | 0.6101 | 0.3962 | 0.6252 |
+| BLF-PCA | 0.4163 | 0.6410 | 0.4201 | 0.6439 |
+
+| feature set | avg. f-score | avg. g-mean | avg. f-score (S2) | avg. g-mean(S20 |
+| ------------- |:-------------:|:-----:|:-----:|:-----:|
+| SAF | 0.1777 | 0.3573 | 0.1932 | 0.3784 |
+| BLF-PCA | 0.2136 | 0.4019 | 0.2185 | 0.4081 |
+
+ * J Bergstra et al., ismir 2010: [pdf](https://www.researchgate.net/profile/Michael_Mandel/publication/220723009_Scalable_Genre_and_Tag_Prediction_with_Spectral_Covariance/links/02e7e520c4c292aee4000000.pdf)
+    * used few selected tags only
+
+* SR Ness et al.: [pdf](Improving automatic music tag annotation using stacked generalization of probabilistic svm outputs)
+  * audio features (+Affinity) + SVM
+  * result
+
+global average (table 2)
+| algorithm | precision | recall | accuracy | F-score |
+| ------------- |:-------------:|:-----:|:-----:|:-----:|
+| Audio SVM | 0.307 | 0.315 | 0.969 | 0.311 |
+| Affinity SVM | 0.351 | 0.354 | 0.971 | 0.353 |
+
+affinity svm - per-tag evaluation (table 4) (table 3 is ommited as table 4 outperforms in overall)
+| number of tags | precision | recall | accuracy | F-score |
+| ------------- |:-------------:|:-----:|:-----:|:-----:|
+| 20 | 0.418 | 0.691 | 0.856 | 0.518 |
+| 30 | 0.346 | 0.671  | 0.862  | 0.453  |
+| 40 | 0.394  | 0.397 | 0.914 | 0.395 |
+| 50 | 0.369| 0.372 | 0.923 | 0.371 |
+| 100 | 0.259 | 0.262 | 0.951 | 0.260 |
+| all (188) | 0.184 | 0.186 | 0.971 | 0.185 |
+
 
 ### 2009
+N/A
+
 
 
