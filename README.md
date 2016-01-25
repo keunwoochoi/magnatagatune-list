@@ -176,6 +176,7 @@ According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciod
  * F Maillet: about music recommendation
 (and,)
  * K Seyerlehner et al.: [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.227.6265&rep=rep1&type=pdf)
+  * title: Automatic music tag classification based on block-level
   * metric: f-score and G-mean (geometric mean of true negative rate and recall)
   * result:
 
@@ -193,6 +194,7 @@ According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciod
     * used few selected tags only
 
 * SR Ness et al.: [pdf](Improving automatic music tag annotation using stacked generalization of probabilistic svm outputs)
+  * title: Improving automatic music tag annotation using stacked generalization of probabilistic svm outputs
   * audio features (+Affinity) + SVM
   * result
 
