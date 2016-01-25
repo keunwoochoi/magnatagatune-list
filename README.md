@@ -1,7 +1,6 @@
 # magnatagatune-list
 List of automatic music tagging (using audio) research articles that are evaluated against MagnaTagATune Dataset
 
-# Information
 ## Download
 MagnaTagATune is hosted by MIRG of City University London, [here](http://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset)
 
