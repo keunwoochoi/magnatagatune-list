@@ -163,12 +163,14 @@ According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciod
   * result
 
 global average (table 2)
+
 | algorithm | precision | recall | accuracy | F-score |
 | ------------- |:-------------:|:-----:|:-----:|:-----:|
 | Audio SVM | 0.307 | 0.315 | 0.969 | 0.311 |
 | Affinity SVM | 0.351 | 0.354 | 0.971 | 0.353 |
 
 affinity svm - per-tag evaluation (table 4) (table 3 is ommited as table 4 outperforms in overall)
+
 | number of tags | precision | recall | accuracy | F-score |
 | ------------- |:-------------:|:-----:|:-----:|:-----:|
 | 20 | 0.418 | 0.691 | 0.856 | 0.518 |
