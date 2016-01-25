@@ -19,8 +19,21 @@ According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciod
 (and,)
  * J Nam et al., arxiv: [pdf](http://arxiv.org/abs/1508.04999)
    * title: A deep bag-of-features model for music auto-tagging
-   * TODO
+   * algorithm: bag-of-features (mel-specgram, onsets) --> PCA --> RBM for feature extraction --> DNN + stackedRBM
+   * set: 14600/1629/6499 for training/validation/test
+   * tags: used 160 tags
+   * (selected) result
 
+
+| algorithm        | Deep-BoF (proposed)   | P Hamel 2011  | P Hamel 2011 | P Hamel 2012 |
+| ------------- |:-------------:|:-------------:|:-------------:|:-------------:| 
+| AUC tag      | 0.888 | 0.845 | 0.861 | 0.870 |
+| AUC clip      | 0.956 | 0.938 | 0.943 | 0.949 |
+| Precision@3  | 0.511 | 0.449 | 0.467 | 0.481 |
+| Precision@6| 0.358 | 0.430 | 0.327 | 0.339 |
+| Precision@9 | 0.275 | 0.249 | 0.255 | 0.263 |
+| Precision@12 | 0.225 | 0.205 | 0.211 | 0.216 |
+| Precision@15 | 0.190 | 0.175 | 0.181 | 0.184 |
 
 ### 2014
 According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciodt=0%2C5&cites=10394255617419929029&scipsc=&as_ylo=2014&as_yhi=2014),
@@ -30,14 +43,37 @@ According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciod
 (and,)
  * S Dieleman et al.:
    * title: End-to-end learning for music audio
-   * TODO
+   * algorithm: end-to-end setting from audio (and spectrogram for comparison), 1d conv - MP - 1d conv - MP - fc layers
+   * set: 16-folds, 1-12/13/14-6 for training/validation/test
+   * (selected) result
+
+| filter length | stride   | AUC (spectrograms)  | AUC (raw audio) |
+| ------------- |:-------------:|:-------------:|:-------------:|
+| 1024      | 1024 | 0.8690 | 0.8366 |
+| 256      | 256 | 0.8815 | 0.8487 |
+
  * A Oord et al.: [pdf](http://www.terasoft.com.tw/conf/ismir2014/proceedings/T007_118_Paper.pdf)
    * title: Transfer learning by supervised pre-training for audio-based music classification
-   * TODO
- * SN Tran et al.: [pdf](http://mirg.city.ac.uk/blog/wp-content/uploads/2013/09/rbm-features-for-music-similarity.pdf)
+   * algorithm: transfering learned MLP into problems based on other dataset.
+   * network: k-means feature learning --> MLP
+   * result
+
+| model | nmse   | mean average precision (mAP)  |
+| ------------- |:-------------:|:-------------:|:-------------:|
+| linear regression      | 0.965 | 0.823 | 0.0099 |
+| MLP (1 hidden layer)      | 0.939 | 0.841 | 0.0179 |
+| MLP (2 hidden layers)      | 0.924 | 0.837 | 0.0179 |
+
+| task | AUC   |
+| ------------- |:-------------:|
+| tag (top 50 tags)      | <0.88 |
+| tag (all 188 tags)      | <0.86 |
+
+ * SN Tran et al.: [pdf](http://mirg.city.ac.uk/blog/wp-content/uploads/2013/09/rbm-features-for-music-similarity.pdf): about similarity
    * title: feature preprocessing with RBMs for music similarity learning
  * F Gouton et al.: [pdf](http://arxiv.org/abs/1410.0001)
    * title: on evaluation validity in music autotagging
+   * used [MagTag5k](http://tl.di.fc.ul.pt/t/magtag5k.zip), which is subset of MagnaTagATune. Now the link is broken.
 
  
 ### 2013
@@ -62,9 +98,10 @@ According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciod
    (TODO)
  * J Stastny et al.: [pdf](http://www.researchgate.net/profile/Jii_Fejfar/publication/257563651_Audio_data_classification_by_means_of_new_algorithms/links/5432b2d00cf225bddcc7c68a.pdf)
    * title: audio data classification by means of new algorithms
-   * TODO
- * R Piva: [pdf](http://tesi.cab.unipd.it/42723/)
-   * TODO
+   * Not on tag prediction
+ 
+[//]: # * R Piva: [pdf](http://tesi.cab.unipd.it/42723/)
+   
 
 
 ### 2012
