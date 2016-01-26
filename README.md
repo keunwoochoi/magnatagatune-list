@@ -16,7 +16,9 @@ According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciod
  * U Sandouk et al., arxiv: text-processing.
  * U Sandouk et al., arxiv: text-processing.
  * E Colautti et al. : ...written in French but doesn't seem related to audio
+
 (and,)
+
  * J Nam et al., arxiv: [pdf](http://arxiv.org/abs/1508.04999)
    * title: A deep bag-of-features model for music auto-tagging
    * algorithm: bag-of-features (mel-specgram, onsets) --> PCA --> RBM for feature extraction --> DNN + stackedRBM
@@ -40,7 +42,9 @@ According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciod
  * D Lim at al., JMLR: about metrics
  * S Duan et al.: survey of tagging techniques
  * G Sageder et al.: not used. onlysubset of MagnaTagATune is used to verity the proposed feature selection that is based on ismir2014 DB.
+
 (and,)
+
  * S Dieleman et al.:
    * title: End-to-end learning for music audio
    * algorithm: end-to-end setting from audio (and spectrogram for comparison), 1d conv - MP - 1d conv - MP - fc layers
@@ -92,7 +96,9 @@ According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciod
 | Affinity Weighted Embedding      | 52.7% | 39.2% |
 
  * JA Burgoyne et al., ismir: just mentioning.
+
 (and,)
+
  * S Dieleman et al., ismir:
    * title: Multiscale Approaches To Music Audio Feature Learning
    (TODO)
@@ -162,7 +168,9 @@ http://arxiv.org/pdf/1105.5196.pdf
  * M Mann et al., ismir: mood predction in reduced dimensions.
  * D Wolff et al., : about similarity
  * T Aizenberg et al.: about melodic salience modelling
+
 (and,)
+
  * S Dieleman et al., ismir 2011:
    * title: audio-based music classification with a pretrained convolutional network
    * 
@@ -175,7 +183,9 @@ According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciod
  * E Law et al., ECML: learning to tag using noisy labels
  * Y Panagakis et al.: sparse multi-label linear embedding NNTF for automatic music tagging
  * F Maillet: about music recommendation
+
 (and,)
+
  * K Seyerlehner et al.: [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.227.6265&rep=rep1&type=pdf)
   * title: Automatic music tag classification based on block-level
   * metric: f-score and G-mean (geometric mean of true negative rate and recall)
