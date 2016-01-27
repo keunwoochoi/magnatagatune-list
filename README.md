@@ -1,8 +1,12 @@
 # magnatagatune-list
 List of automatic music tagging (using audio) research articles that are evaluated against MagnaTagATune Dataset
 
-## Download
+### Download
 MagnaTagATune is hosted by MIRG of City University London, [here](http://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset)
+
+### Tags
+'no voice', 'singer', 'duet', 'plucking', 'hard rock', 'world', 'bongos', 'harpsichord', 'female singing', 'clasical', 'sitar', 'chorus', 'female opera', 'male vocal', 'vocals', 'clarinet', 'heavy', 'silence', 'beats', 'men', 'woodwind', 'funky', 'no strings', 'chimes', 'foreign', 'no piano', 'horns', 'classical', 'female', 'no voices', 'soft rock', 'eerie', 'spacey', 'jazz', 'guitar', 'quiet', 'no beat', 'banjo', 'electric', 'solo', 'violins', 'folk', 'female voice', 'wind', 'happy', 'ambient', 'new age', 'synth', 'funk', 'no singing', 'middle eastern', 'trumpet', 'percussion', 'drum', 'airy', 'voice', 'repetitive', 'birds', 'space', 'strings', 'bass', 'harpsicord', 'medieval', 'male voice', 'girl', 'keyboard', 'acoustic', 'loud', 'classic', 'string', 'drums', 'electronic', 'not classical', 'chanting', 'no violin', 'not rock', 'no guitar', 'organ', 'no vocal', 'talking', 'choral', 'weird', 'opera', 'soprano', 'fast', 'acoustic guitar', 'electric guitar', 'male singer', 'man singing', 'classical guitar', 'country', 'violin', 'electro', 'reggae', 'tribal', 'dark', 'male opera', 'no vocals', 'irish', 'electronica', 'horn', 'operatic', 'arabic', 'lol', 'low', 'instrumental', 'trance', 'chant', 'strange', 'drone', 'synthesizer', 'heavy metal', 'modern', 'disco', 'bells', 'man', 'deep', 'fast beat', 'industrial', 'hard', 'harp', 'no flute', 'jungle', 'pop', 'lute', 'female vocal', 'oboe', 'mellow', 'orchestral', 'viola', 'light', 'echo', 'piano', 'celtic', 'male vocals', 'orchestra', 'eastern', 'old', 'flutes', 'punk', 'spanish', 'sad', 'sax', 'slow', 'male', 'blues', 'vocal', 'indian', 'no singer', 'scary', 'india', 'woman', 'woman singing', 'rock', 'dance', 'piano solo', 'guitars', 'no drums', 'jazzy', 'singing', 'cello', 'calm', 'female vocals', 'voices', 'different', 'techno', 'clapping', 'house', 'monks', 'flute', 'not opera', 'not english', 'oriental', 'beat', 'upbeat', 'soft', 'noise', 'choir', 'female singer', 'rap', 'metal', 'hip hop', 'quick', 'water', 'baroque', 'women', 'fiddle', 'english'
+
 
 ----------
 # Papers
@@ -27,7 +31,7 @@ According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciod
    * (selected) result
 
 
-| algorithm        | Deep-BoF (proposed)   | P Hamel 2011  | P Hamel 2011 | P Hamel 2012 |
+| algorithm        | Deep-BoF (proposed)   | P  2011  | P Hamel 2011 | P Hamel 2012 |
 | ------------- |:-------------:|:-------------:|:-------------:|:-------------:| 
 | AUC tag      | 0.888 | 0.845 | 0.861 | 0.870 |
 | AUC clip      | 0.956 | 0.938 | 0.943 | 0.949 |
@@ -141,6 +145,7 @@ According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciod
   * result:
 
 table 1. 
+
 | algorithm        | AUC           | average training time  |
 |:-------------:|:-------------:|:-----:|
 | MFCC(20)      | 0.77+-0.04 | 5.9gh |
