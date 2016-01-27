@@ -139,6 +139,7 @@ According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciod
   * model 2: multi-time-scale learning 
   * evaluation metric: AUC
   * result:
+
 table 1. 
 | algorithm        | AUC           | average training time  |
 |:-------------:|:-------------:|:-----:|
@@ -173,7 +174,8 @@ http://arxiv.org/pdf/1105.5196.pdf
 
  * S Dieleman et al., ismir 2011:
    * title: audio-based music classification with a pretrained convolutional network
-   * 
+
+
 ### 2010
 According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciodt=0%2C5&cites=10394255617419929029&scipsc=&as_ylo=2010&as_yhi=2010),
 
