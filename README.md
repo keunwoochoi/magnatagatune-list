@@ -2,7 +2,7 @@
 List of automatic music tagging (using audio) research articles that are evaluated against MagnaTagATune Dataset
 
 ### Download
-MagnaTagATune is hosted by MIRG of City University London, [here](http://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset)
+MagnaTagATune is kindly hosted by MIRG of City University London. Visit [here](http://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset) to download mp3s and others.
 
 ### Folders and files
 After download three files, ` $ cat mp3.zip.* > mp3_all.zip` to merge them, then unzip it by `unzip mp3_all.zip`.
