@@ -14,6 +14,44 @@ Many works based on splitting the folders as 13:1:3 for training/validatin/testi
 ### Tags
 ` no voice, singer, duet, plucking, hard rock, world, bongos, harpsichord, female singing, clasical, sitar, chorus, female opera, male vocal, vocals, clarinet, heavy, silence, beats, men, woodwind, funky, no strings, chimes, foreign, no piano, horns, classical, female, no voices, soft rock, eerie, spacey, jazz, guitar, quiet, no beat, banjo, electric, solo, violins, folk, female voice, wind, happy, ambient, new age, synth, funk, no singing, middle eastern, trumpet, percussion, drum, airy, voice, repetitive, birds, space, strings, bass, harpsicord, medieval, male voice, girl, keyboard, acoustic, loud, classic, string, drums, electronic, not classical, chanting, no violin, not rock, no guitar, organ, no vocal, talking, choral, weird, opera, soprano, fast, acoustic guitar, electric guitar, male singer, man singing, classical guitar, country, violin, electro, reggae, tribal, dark, male opera, no vocals, irish, electronica, horn, operatic, arabic, lol, low, instrumental, trance, chant, strange, drone, synthesizer, heavy metal, modern, disco, bells, man, deep, fast beat, industrial, hard, harp, no flute, jungle, pop, lute, female vocal, oboe, mellow, orchestral, viola, light, echo, piano, celtic, male vocals, orchestra, eastern, old, flutes, punk, spanish, sad, sax, slow, male, blues, vocal, indian, no singer, scary, india, woman, woman singing, rock, dance, piano solo, guitars, no drums, jazzy, singing, cello, calm, female vocals, voices, different, techno, clapping, house, monks, flute, not opera, not english, oriental, beat, upbeat, soft, noise, choir, female singer, rap, metal, hip hop, quick, water, baroque, women, fiddle, english `
 
+### Proposed tag preprocessing
+I wrote code to merge these synonyms. Please whare your idea on it!
+
+    synonyms = [['beat', 'beats'],
+				['chant', 'chanting'],
+				['choir', 'choral'],
+				['classical', 'clasical', 'classic'],
+				['drum', 'drums'],
+				['electro', 'electronic', 'electronica', 'electric'],
+				['fast', 'fast beat', 'quick'],
+				['female', 'female singer', 'female singing', 'female vocals', 'female voice', 'woman', 'woman singing', 'women'],
+				['flute', 'flutes'],
+				['guitar', 'guitars'],
+				['hard', 'hard rock'],
+				['harpsichord', 'harpsicord'],
+				['heavy', 'heavy metal', 'metal'],
+				['horn', 'horns'],
+				['india', 'indian'],
+				['jazz', 'jazzy'],
+				['male', 'male singer', 'male vocal', 'male vocals', 'male voice', 'man', 'man singing', 'men'],
+				['no beat', 'no drums'],
+				['no singer', 'no singing', 'no vocal','no vocals', 'no voice', 'no voices', 'instrumental'],
+				['opera', 'operatic'],
+				['orchestra', 'orchestral'],
+				['quiet', 'silence'],
+				['singer', 'singing'],
+				['space', 'spacey'],
+				['string', 'strings'],
+				['synth', 'synthesizer'],
+				['violin', 'violins'],
+				['vocal', 'vocals', 'voice', 'voices'],
+				['strange', 'weird']]`
+
+I'm not 100% sure if these should be merged.
+
+				['opera', 'operatic'],
+				['hard', 'hard rock'],
+				
 
 ----------
 # Papers
