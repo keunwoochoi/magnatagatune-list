@@ -150,7 +150,15 @@ According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciod
 
  * S Dieleman et al., ismir:
    * title: Multiscale Approaches To Music Audio Feature Learning
-   (TODO)
+   * result
+
+| algorithm        | average AUC           | 
+| ------------- |:-------------:| 
+| Laplacian 1 frame      | 0.898 |
+| Multiresolution spectrograms      | 0.888 |
+   
+  
+
  * J Stastny et al.: [pdf](http://www.researchgate.net/profile/Jii_Fejfar/publication/257563651_Audio_data_classification_by_means_of_new_algorithms/links/5432b2d00cf225bddcc7c68a.pdf)
    * title: audio data classification by means of new algorithms
    * Not on tag prediction
