@@ -29,7 +29,7 @@ Many works based on splitting the folders as 13:1:3 for training/validatin/testi
 ` electro, drum, male vocals, jazz, violins, eastern, female vocals, instrumental, bass, modern, no piano, harpsicord, jazzy, string, baroque, foreign, orchestra, hard rock, electric, trance, folk, chorus, chant, voices, classical guitar, spanish, heavy, upbeat, no guitar, acoustic, male singer, electric guitar, electronica, oriental, funky, tribal, banjo, dark, medieval, man singing, organ, blues, irish, no singing, bells, percussion, no drums, woman singing, noise, spacey, singer, female singer, middle eastern, chanting, no flute, low, strange, calm, wind, lute, heavy metal, different, punk, oboe, celtic, sax, flutes, talking, women, arabic, hard, mellow, funk, fast beat, house, rap, not english, no violin, fiddle, female opera, water, india, guitars, no beat, chimes, drone, male opera, trumpet, duet, birds, industrial, sad, plucking, girl, silence, men, operatic, horns, repetitive, airy, world, eerie, deep, hip hop, space, light, keyboard, english, not opera, not classical, not rock, clapping, horn, acoustic guitar, disco, orchestral, no strings, old, echo, lol, soft rock, no singer, jungle, bongos, reggae, monks, clarinet, scary, synthesizer, female singing, piano solo, no voices, woodwind, happy, viola, soprano, quick, clasical `
 
 ### Proposed tag preprocessing
-I wrote code to merge these synonyms. Please whare your idea on it!
+I wrote code to merge these synonyms.
 
     synonyms = [['beat', 'beats'],
 				['chant', 'chanting'],
