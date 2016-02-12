@@ -13,9 +13,18 @@ Many works based on splitting the folders as 13:1:3 for training/validatin/testi
 
 ### Tags (sorted by popularity)
 
-Top 50
+#### Top 50
 
 ` guitar, classical, slow, techno, strings, drums, electronic, rock, fast, piano, ambient, beat, violin, vocal, synth, female, indian, opera, male, singing, vocals, no vocals, harpsichord, loud, quiet, flute, woman, male vocal, no vocal, pop, soft, sitar, solo, man, classic, choir, voice, new age, dance, male voice, female vocal, beats, harp, cello, no voice, weird, country, metal, female voice, choral `
+
+#### Top 50 by categories
+
+* genre: ` classical, techno, electronic, rock, indian, opera, pop, classic, new age, dance, country, metal `
+* instrument: ` guitar, strings, drums, piano, violin, vocal, synth, female, male, singing, vocals, no vocals, harpsichord, flute, no vocal, sitar, man, choir, voice, male voice, female vocal, harp, cello, femal voice, choral `
+* mood: ` slow, fast, ambient, loud, quiet, soft, weird `
+* etc: ` beat, solo, beats `
+
+#### Top 51-188
 
 ` electro, drum, male vocals, jazz, violins, eastern, female vocals, instrumental, bass, modern, no piano, harpsicord, jazzy, string, baroque, foreign, orchestra, hard rock, electric, trance, folk, chorus, chant, voices, classical guitar, spanish, heavy, upbeat, no guitar, acoustic, male singer, electric guitar, electronica, oriental, funky, tribal, banjo, dark, medieval, man singing, organ, blues, irish, no singing, bells, percussion, no drums, woman singing, noise, spacey, singer, female singer, middle eastern, chanting, no flute, low, strange, calm, wind, lute, heavy metal, different, punk, oboe, celtic, sax, flutes, talking, women, arabic, hard, mellow, funk, fast beat, house, rap, not english, no violin, fiddle, female opera, water, india, guitars, no beat, chimes, drone, male opera, trumpet, duet, birds, industrial, sad, plucking, girl, silence, men, operatic, horns, repetitive, airy, world, eerie, deep, hip hop, space, light, keyboard, english, not opera, not classical, not rock, clapping, horn, acoustic guitar, disco, orchestral, no strings, old, echo, lol, soft rock, no singer, jungle, bongos, reggae, monks, clarinet, scary, synthesizer, female singing, piano solo, no voices, woodwind, happy, viola, soprano, quick, clasical `
 
