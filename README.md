@@ -114,7 +114,7 @@ According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciod
 
 (and,)
 
- * S Dieleman et al.:
+ * S Dieleman et al.: [pdf](http://www.redes.unb.br/lasp/files/events/ICASSP2014/papers/p7014-dieleman.pdf)
    * title: End-to-end learning for music audio
    * algorithm: end-to-end setting from audio (and spectrogram for comparison), 1d conv - MP - 1d conv - MP - fc layers
    * set: 16-folds, 1-12/13/14-6 for training/validation/test
@@ -168,7 +168,7 @@ According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciod
 
 (and,)
 
- * S Dieleman et al., ismir:
+ * S Dieleman et al., ismir: [pdf](https://biblio.ugent.be/publication/4152117/file/4324540.pdf)
    * title: Multiscale Approaches To Music Audio Feature Learning
    * result
 
