@@ -84,7 +84,7 @@ not yet
 According to [this](https://scholar.google.co.kr/scholar?hl=en&as_sdt=2005&sciodt=0%2C5&cites=10394255617419929029&scipsc=&as_ylo=2015&as_yhi=2015),
  * U Sandouk et al., arxiv: text-processing.
  * U Sandouk et al., arxiv: text-processing.
- * E Colautti et al. : ...written in French but doesn't seem related to audio
+ * E Colautti et al. : it's not relevant. 
 
 (and,)
 
